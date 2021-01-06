@@ -12,5 +12,15 @@ body{
     align-items:  center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: scroll;
+}
+.box{
+    outline: 1px solid black;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(255, 241, 214);
+    transform: translateX(400%);
+    /* transition: transform 0.4s ease; */
 }
